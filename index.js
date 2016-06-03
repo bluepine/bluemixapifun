@@ -7,6 +7,7 @@ server.connection({
 });
 const Q = require('q')
 const _ = require('lodash')
+const watson  = require('watson-developer-cloud');
 
 server.start(() => {
   console.log('Server running at:', server.info.uri);
